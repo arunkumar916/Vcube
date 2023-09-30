@@ -1,0 +1,10 @@
+.bgimg{
+    position: relative;
+    top: 200px;
+    height: max-content;
+    width: max-content;
+    
+}
+img{
+    max-width: 100%;
+}

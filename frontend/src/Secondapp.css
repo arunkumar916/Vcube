@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 2rem;
+    align-items: center;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.1);
+    height:10vh;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+ul li{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.navbar .logo img{
+    width: 200px;
+    margin-top: -20px;
+    height: 100px;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+   right: -25px!important;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  .BG{
+    background:url(https://www.vcubesoftsolutions.com/wp-content/uploads/2020/10/online-programming-course-hero-section-bg.svg) ;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .BG .para h1{
+    width: 40vw;
+    color: #fff;
+    font-size: 55px;
+  }
+  .BG .para p{
+    color:rgb(255,255,255);
+    font-size: 20px;
+    text-align: center;
+    width: 45vw;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.1);
+    width: 30%;
+    min-height: 50vh;
+    height: auto;
+    padding: 2rem;
+  }
+  .form-control,.form-select{
+    height: 6vh;
+  }
+  label{
+    color: #fff;
+    font-size: 20px;
+  }
+  .btn-danger{
+    width: 100px;
+  }
+ .elementor-icon-list-text{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .para span li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* list-style-type: disc!important; */
+    list-style: none;
+    
+ }
+ 
+  
+  .para span li::before {
+    content: "\2022";
+    color: rgb(255, 230, 0);
+    font-weight: bold;
+    font-size: 40px;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+  .btn-success{
+    background-color: #fff;
+    color: rgb(0,0,0);
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 10px 20px;
+  }
+  .btn-secondary{
+    background-color: transparent;
+    font-size: 20px;
+    border: 1px solid white;
+    box-shadow: 0px 2px 2px 0px rgba(255, 255, 255, 0.7);
+
+  }
+  .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  @media(max-width:1400px){
+    .BG .para h1{
+        width: 40vw;
+        color: #fff;
+        font-size: 45px;
+      }
+  }
+  .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .footer{
+    background-color: #fff;
+    height: 40vh;
+    padding: 1rem;
+  }
+  .footerlogo img{
+    width: 200px;
+  }
+  .footermenu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .footerlogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .footerlogo h4{
+    width: 400px;
+  }
+  .footerlogo h5{
+    width: 400px;
+  }
+  .menulinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .menulinks a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+  }
+  .adress p{
+    font-size: 20px;
+    width: 300px;
+  }
+  .AdminLogin{
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0,0,0,0.8);
+  }

@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.head{
+    position: relative;
+     top: -470px;
+     left: 120px;
+     color: rgb(27, 58, 172);
+}
+.python img{
+    cursor: pointer;
+    height: auto;
+    width:400px;
+    float: left;
+    top: -400px;
+    left: 100px;
+}
+img{
+    max-width: 100%;
+}
+.pythonfull{
+    cursor: pointer;
+    position: relative;
+    height:auto;
+    width: 480px;
+    float: right;
+    right: -340px;
+    top: -300px;
+}
+.devops{
+    cursor: pointer;
+    position: relative;
+    height: auto;
+    width: 450px;
+    float: left;
+    left: 40px;
+    bottom: 240px;
+
+}
+.java{
+    cursor: pointer;
+    position: relative;
+    height: auto;
+    width: 450px;
+    bottom: 200px;
+    left: 100px;
+}
+.javafull{
+    cursor: pointer;
+    position: relative;
+    float: right;
+    height: auto;
+    width: 600px;
+    bottom: 480px;
+}
+.fmc{
+    background-color: #ead40f;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    float: left;
+    left: 550px;
+    bottom: 230px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: large;
+}
+.fmc:hover{
+    transform: scale(.9);
+}
